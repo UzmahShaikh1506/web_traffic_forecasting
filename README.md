@@ -62,11 +62,35 @@ Follow these steps to set up the project on your local machine.
 ```bash
 git clone https://github.com/UzmahShaikh1506/web_traffic_forecasting.git
 cd web_traffic_forecasting
-
+```
 ### 2. Set Up a Virtual Environment
 It's recommended to use a virtual environment to isolate dependencies.
 
 ```bash
 python3 -m venv venv
+```
+### 3. Install Dependencies
+Once the virtual environment is activated, install the required packages:
 
+```bash
+pip install -r requirements.txt
+```
 
+###Usage
+#Step-by-Step Instructions
+1. Prepare Data: 
+- Ensure your data file (webtraffic.csv) is placed in the data/ directory.
+
+Run the Main Script:
+```bash
+python src/main.py
+```
+2. This script performs the following tasks:
+
+- Loads and preprocesses data.
+- Trains both LSTM and CNN models.
+- Evaluates each model and saves performance metrics.
+- Serializes models and scalers for future use.
+
+3. Review the Results:
+- The output will display the evaluation metrics for both models, including MSE, MAE, and R² scores.
