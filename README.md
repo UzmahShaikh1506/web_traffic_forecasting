@@ -46,7 +46,7 @@ This project relies on Python libraries for data manipulation, scaling, model bu
 ## Requirements
 
 To run this project, you'll need:
-- **Python**: 3.8 or later
+- **Python**: 3.12.7
 - **TensorFlow/Keras**: for building and training neural networks
 - **Pandas**: for data manipulation
 - **NumPy**: for numerical operations
