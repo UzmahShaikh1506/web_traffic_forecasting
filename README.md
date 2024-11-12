@@ -77,20 +77,20 @@ pip install -r requirements.txt
 ```
 
 ### Usage
-# Step-by-Step Instructions
-1. Prepare Data: 
+## Step-by-Step Instructions
+**1. Prepare Data: **
 - Ensure your data file (webtraffic.csv) is placed in the data/ directory.
 
 Run the Main Script:
 ```bash
 python src/main.py
 ```
-2. This script performs the following tasks:
+**2. This script performs the following tasks:**
 
 - Loads and preprocesses data.
 - Trains both LSTM and CNN models.
 - Evaluates each model and saves performance metrics.
 - Serializes models and scalers for future use.
 
-3. Review the Results:
+**3. Review the Results:**
 - The output will display the evaluation metrics for both models, including MSE, MAE, and R² scores.
