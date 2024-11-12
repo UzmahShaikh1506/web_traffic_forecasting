@@ -76,8 +76,8 @@ Once the virtual environment is activated, install the required packages:
 pip install -r requirements.txt
 ```
 
-###Usage
-#Step-by-Step Instructions
+### Usage
+# Step-by-Step Instructions
 1. Prepare Data: 
 - Ensure your data file (webtraffic.csv) is placed in the data/ directory.
 
